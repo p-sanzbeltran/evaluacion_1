@@ -1,0 +1,30 @@
+def fecha():
+  dia=input("Que dia es: ")
+  mes=input("Que mes es: ")
+  ano=input("Que ano es: ")
+  if (mes==1):
+    mes==Enero
+  if (mes==2):
+    mes==Febrero
+  if (mes==3):
+    mes==Marzo
+  if (mes==4):
+    mes==Abril
+  if (mes==5):
+    mes==Mayo
+  if (mes==6):
+    mes==Junio
+  if (mes==7):
+    mes==Julio
+  if (mes==8):
+    mes==Agosto
+  if (mes==9):
+    mes==Septiembre
+  if (mes==11):
+    mes==Octubre
+  if (mes==11):
+    mes==Noviembre
+  if (mes==12):
+    mes==Diciembre
+  print dia , "de" , mes , "de" , ano
+fecha()
