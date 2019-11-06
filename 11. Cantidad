@@ -1,0 +1,5 @@
+def cantidad():
+  a=input("Dime un numero: ")
+  b=raw_input("Dime una palabra: ")
+
+cantidad()
