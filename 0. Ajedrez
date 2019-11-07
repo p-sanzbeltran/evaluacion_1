@@ -1,0 +1,8 @@
+def ajedrez():
+  h=input("Dime la altura del tablero de ajedrez: ")
+  for i in range(0,h):
+    if (h%2==0):
+      print "*"," "
+    else:
+      print " ","*"
+ajedrez()
