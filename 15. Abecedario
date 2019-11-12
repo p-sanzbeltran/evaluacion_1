@@ -1,0 +1,4 @@
+def abecedario():
+  a=input("Dime una palabra: ")
+  
+abecedario()
