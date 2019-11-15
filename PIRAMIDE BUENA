@@ -1,0 +1,14 @@
+def piramide ():
+  h=input("Dime la altura de la piramide: ")
+  espacio=" "
+  asterisco="*"
+  h=h+1
+  for i in range(1,h):
+    for ne in range(1,h-i):
+      espacio=espacio+" "
+    for na in range(1,2*i-1):
+      asterisco=asterisco+"*"
+    print espacio+asterisco
+    espacio=" "
+    asterisco="*"
+piramide()
