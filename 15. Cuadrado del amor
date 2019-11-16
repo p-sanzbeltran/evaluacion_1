@@ -1,0 +1,22 @@
+def cuadrado_del_amor():
+  h=input("Dime la altura para el cuadrado del amor: ")
+  espacio=" "
+  asterisco="*"
+  for i in range(1,h/2):
+    for ne1 in range(1,h-2*i):
+      espacio=espacio+" "
+    for na1 in range(1,i):
+      asterisco=asterisco+"*"
+    print asterisco+espacio+asterisco
+    espacio=" "
+    asterisco="*"
+  print asterisco*h
+  for u in range(h/2,h):
+    for ne2 in range(1,h*2-i):
+      espacio=espacio+" "
+    for na2 in range(u,1):
+      asterisco=asterisco+"*"
+    print asterisco+espacio+asterisco
+    espacio=" "
+    asterisco="*"
+cuadrado_del_amor()
