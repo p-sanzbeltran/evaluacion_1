@@ -16,7 +16,7 @@ def cuadrado_del_amor():
   for u in range(1,h/2+1):
     for ne2 in range(1,u*2-1):
       espacio=espacio+" "
-    for na2 in range(h/2,1,-1):
+    for na2 in range(1,h/2+1-u):
       asterisco=asterisco+"*" 
     print asterisco+espacio+asterisco
     espacio=" "
