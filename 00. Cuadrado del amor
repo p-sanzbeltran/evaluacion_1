@@ -1,5 +1,5 @@
 def cuadrado_del_amor():
-  h=input("Dime la altura para el cuadrado del amor: ")
+  h=7
   espacio=" "
   asterisco="*"
   for i in range(1,h/2+1):
